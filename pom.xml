@@ -3,7 +3,7 @@
 
   <groupId>mavenex</groupId>
   <artifactId>child</artifactId>
-  <version>1.3-SNAPSHOT</version>
+  <version>1.6-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>child</name>
@@ -141,7 +141,7 @@
  
 			<scm>
 				<developerConnection>scm:git:https://github.com/preetham31/ass1.git</developerConnection>
-				  <tag>child-1.3</tag>
+				  <tag>HEAD</tag>
   </scm>
 				
 </project>
