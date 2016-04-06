@@ -3,7 +3,7 @@
 
   <groupId>mavenex</groupId>
   <artifactId>child</artifactId>
-  <version>1.11-SNAPSHOT</version>
+  <version>1.12-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>child</name>
@@ -123,8 +123,12 @@
 
 	  <plugins>
 	  
+	  
+	  
 	  <plugin>
+	  <groupId>org.apache.maven.plugins</groupId>
 		<artifactId>maven-release-plugin</artifactId>
+		 <version>2.4.2</version>
 		<configuration>
 		
 		<tagbase>
@@ -132,7 +136,13 @@
 		</tagbase>
 		
 		</configuration>
-
+		<dependencies>
+                <dependency>
+                    <groupId>org.apache.maven.scm</groupId>
+                    <artifactId>maven-scm-provider-gitexe</artifactId>
+                    <version>1.9</version>
+                </dependency>
+            </dependencies>
 	   </plugin>
 	  </plugins>
 	    
@@ -141,6 +151,7 @@
 			<scm>
 				<developerConnection>scm:git:https://github.com/preetham31/ass1.git</developerConnection>
 				 
+    <tag>HEAD</tag>
   </scm>
 				
 </project>
