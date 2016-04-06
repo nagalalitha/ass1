@@ -126,14 +126,6 @@
 	  <plugin>
 		<artifactId>maven-release-plugin</artifactId>
 
-		
-		<configuration>
-		
-	<!--	<tagbase>
-			https://github.com/preetham31/ass1.git
-		</tagbase> -->
-		
-		</configuration>
 	   </plugin>
 	  </plugins>
 	    
@@ -141,7 +133,7 @@
  
 			<scm>
 				<developerConnection>scm:git:https://github.com/preetham31/ass1.git</developerConnection>
-				  <tag>HEAD</tag>
+				  <tag>${project.artifactId}-${project.version}</tag>
   </scm>
 				
 </project>
