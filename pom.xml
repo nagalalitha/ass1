@@ -3,7 +3,7 @@
 
   <groupId>mavenex</groupId>
   <artifactId>child</artifactId>
-  <version>1.10-SNAPSHOT</version>
+  <version>1.11-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>child</name>
@@ -125,6 +125,13 @@
 	  
 	  <plugin>
 		<artifactId>maven-release-plugin</artifactId>
+		<configuration>
+		
+		<tagbase>
+		git:https://github.com/preetham31/ass1.git
+		</tagbase>
+		
+		</configuration>
 
 	   </plugin>
 	  </plugins>
@@ -133,7 +140,7 @@
  
 			<scm>
 				<developerConnection>scm:git:https://github.com/preetham31/ass1.git</developerConnection>
-				  <tag>${project.artifactId}-${project.version}</tag>
+				 
   </scm>
 				
 </project>
