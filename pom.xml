@@ -3,7 +3,7 @@
 
   <groupId>mavenex</groupId>
   <artifactId>child</artifactId>
-  <version>1.8-SNAPSHOT</version>
+  <version>1.10-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>child</name>
