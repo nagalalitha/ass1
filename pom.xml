@@ -148,10 +148,13 @@
 	    
 	  </build>
  
-			<scm>
-				<developerConnection>scm:git:https://github.com/preetham31/ass1.git</developerConnection>
-				 
-    <tag>HEAD</tag>
-  </scm>
+		
+  
+  <scm>
+    <connection>scm:git:https://github.com/preetham31/ass1.git</connection>
+    <url>scm:git:https://github.com/preetham31/ass1.git</url>
+    <developerConnection>scm:git:https://github.com/preetham31/ass1.git</developerConnection>
+ 
+ </scm>
 				
 </project>
